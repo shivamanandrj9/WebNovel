@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" width="width=device-width, intial-scale=1.0">
+  <link rel="icon" href="img/logo.jpg">
+  <title>Heart Quill</title>
+  <link rel="stylesheet" href= "stysheet.css">
+</head>
+<body>
+  <nav>
+    <ul id="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-a" href="#"><img class="nav-logo" src="img/logo.jpg"></a></li>
+      <li class= "nav-list-item"><a class="nav-list-item-a" href="#">Home</a></li>
+      <li class="nav-list-item"><a class="nav-list-item-a" href="#">Browse</a></li>
+      <li class="nav-list-item"><a class="nav-list-item-a" href="#">Ranking</a></li>
+      <li class="nav-list-item"><input id ="nav-search" type="search"></li>
+      <li class="nav-list-item"><button id= "nav-search-btn">Search</button></li>
+    </ul>
+  </nav>  
+
+  <div class="home-carousel home-item">
+    <div class= "home-carousel-item home-carousel-item--visible"><img src="img/home1.jpg" alt="Book1"></div>
+    <div class= "home-carousel-item "><img src="img/home2.jpg" alt="Book2"></div>
+    <div class= "home-carousel-item "><img src="img/home1.jpg" alt="Book3"></div>
+    <div class="home-carousel-actions">
+      <button id="carousel-button-prev"><<</button>
+      <button id="carousel-button-next">>></button>
+    </div>
+  </div>
+
+  <div class="home-recom home-item">
+    <ul id="recom-list">
+      <li class="recom-item"><img class="recom-cover" src="img/cover.jpg"></li>
+      <li class="recom-item"><img class="recom-cover" src="img/cover.jpg"></li>
+      <li class="recom-item"><img class="recom-cover" src="img/cover.jpg"></li>
+      <li class="recom-item"><img class="recom-cover" src="img/cover.jpg"></li>
+    </ul>
+  </div>
+  
+  <div class="home-about-us">
+    <h2><center>About Us</center></h2>
+  </div>
+
+
+
+  <script src="javascript/carousel.js"></script>
+</body>
+</html>
